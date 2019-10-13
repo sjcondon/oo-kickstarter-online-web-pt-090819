@@ -1,5 +1,5 @@
 class Projects
-  attr_reader :backers, :name
+  attr_reader :backers, :
   def initialized(name)
     @name = name
     @backer = []
