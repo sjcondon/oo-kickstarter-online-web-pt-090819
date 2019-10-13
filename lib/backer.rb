@@ -4,6 +4,7 @@ class Baker
     @name = name
     @backs_project = []
   end
-  def back_projects()
+  def back_projects(project)
+    @back_projects
   end
 end
